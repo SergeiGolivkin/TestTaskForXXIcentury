@@ -1,0 +1,2 @@
+com/xxicentury/testTask/TestTaskApplicationTests.java
+ com.xxicentury.testTask.TestTaskApplicationTests

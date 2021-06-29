@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.xxicentury.testTask.TestTaskApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-29T15:29:13" hostname="LAPTOP-SUHCMBMS" time="0.058">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.xxicentury.testTask.TestTaskApplicationTests" time="0.058"/>
+  <system-out><![CDATA[18:29:08.780 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+18:29:08.795 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+18:29:08.826 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.xxicentury.testTask.TestTaskApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+18:29:08.838 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.xxicentury.testTask.TestTaskApplicationTests], using SpringBootContextLoader
+18:29:08.841 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.xxicentury.testTask.TestTaskApplicationTests]: class path resource [com/xxicentury/testTask/TestTaskApplicationTests-context.xml] does not exist
+18:29:08.842 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.xxicentury.testTask.TestTaskApplicationTests]: class path resource [com/xxicentury/testTask/TestTaskApplicationTestsContext.groovy] does not exist
+18:29:08.842 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.xxicentury.testTask.TestTaskApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:29:08.843 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.xxicentury.testTask.TestTaskApplicationTests]: TestTaskApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:29:08.881 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.xxicentury.testTask.TestTaskApplicationTests]
+18:29:08.942 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\TestTaskForXXIcentury\angular-springboot-server\build\classes\java\main\com\xxicentury\testTask\TestTaskApplication.class]
+18:29:08.943 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.xxicentury.testTask.TestTaskApplication for test class com.xxicentury.testTask.TestTaskApplicationTests
+18:29:09.075 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.xxicentury.testTask.TestTaskApplicationTests]: using defaults.
+18:29:09.075 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+18:29:09.093 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5001ef, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1d004d3, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@114a7b4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@11e4822, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1fd63d7, org.springframework.test.context.support.DirtiesContextTestExecutionListener@b61367, org.springframework.test.context.transaction.TransactionalTestExecutionListener@b33082, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1753f2e, org.springframework.test.context.event.EventPublishingTestExecutionListener@1aa1ccc, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@15d06f5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@b5167c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4fc9cb, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1b0eb72, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@b2b5f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@43c594]
+18:29:09.098 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@1e2d31e testClass = TestTaskApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@157fd5d testClass = TestTaskApplicationTests, locations = '{}', classes = '{class com.xxicentury.testTask.TestTaskApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1e817e3, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2fd6bf, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@129e5b0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@f41e46, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@131c04d, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@ec28dd], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+18:29:09.128 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.5)
+
+2021-06-29 18:29:09.381  INFO 14880 --- [    Test worker] c.x.testTask.TestTaskApplicationTests    : Starting TestTaskApplicationTests using Java 1.8.0_41 on LAPTOP-SUHCMBMS with PID 14880 (started by Sergei in D:\TestTaskForXXIcentury\angular-springboot-server)
+2021-06-29 18:29:09.383  INFO 14880 --- [    Test worker] c.x.testTask.TestTaskApplicationTests    : No active profile set, falling back to default profiles: default
+2021-06-29 18:29:09.422 TRACE 14880 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1fddb39, started on Tue Jun 29 18:29:09 MSK 2021
+2021-06-29 18:29:09.935  INFO 14880 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-29 18:29:09.986  INFO 14880 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 3 JPA repository interfaces.
+2021-06-29 18:29:10.285 TRACE 14880 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : No 'messageSource' bean, using [Empty MessageSource]
+2021-06-29 18:29:10.285 TRACE 14880 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : No 'applicationEventMulticaster' bean, using [SimpleApplicationEventMulticaster]
+2021-06-29 18:29:10.452  INFO 14880 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-29 18:29:10.516  INFO 14880 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-06-29 18:29:10.694  INFO 14880 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-29 18:29:11.212  INFO 14880 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-29 18:29:11.386  INFO 14880 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-29 18:29:11.405  INFO 14880 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Hibernate: create table goods (id bigint generated by default as identity, name varchar(255), price double, primary key (id))
+Hibernate: create table order_line (id bigint generated by default as identity, count integer, goods_id bigint, order_id bigint, primary key (id))
+Hibernate: create table orders (id bigint generated by default as identity, address varchar(255), client varchar(255), date date, primary key (id))
+Hibernate: alter table order_line add constraint FK63ds2u1i37e0s0rg8353p3whd foreign key (goods_id) references goods
+Hibernate: alter table order_line add constraint FKk9f9t1tmkbq5w27u8rrjbxxg6 foreign key (order_id) references orders
+2021-06-29 18:29:12.106  INFO 14880 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-29 18:29:12.124  INFO 14880 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-29 18:29:12.679  WARN 14880 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-29 18:29:12.858  INFO 14880 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-29 18:29:12.871 DEBUG 14880 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-06-29 18:29:12.907  INFO 14880 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-06-29 18:29:12.952 TRACE 14880 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.x.t.c.GoodsController:
+	{PUT [/api/v1/goods/update/{id}]}: updateGoods(Long,Goods)
+	{DELETE [/api/v1/goods/delete/{id}]}: deleteGoods(Long)
+	{GET [/api/v1/goods/{id}]}: goodsById(Long)
+	{GET [/api/v1/goods/all]}: allGoods()
+	{POST [/api/v1/goods/add]}: addGoods(GoodsDto)
+2021-06-29 18:29:12.954 TRACE 14880 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.x.t.c.OrderController:
+	{GET [/api/v1/order/{id}]}: orderById(Long)
+	{DELETE [/api/v1/order/delete/{id}]}: deleteOrder(Long)
+	{PUT [/api/v1/order/update/{id}]}: updateOrder(Long,Order)
+	{GET [/api/v1/order/all]}: allOrder()
+	{POST [/api/v1/order/add]}: addOrder(OrderDto)
+2021-06-29 18:29:12.956 TRACE 14880 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.x.t.c.OrderLineController:
+	{POST [/api/v1/order-line/add]}: addOrderLine(OrderLineDto)
+	{GET [/api/v1/order-line/all]}: allOrderLine()
+	{GET [/api/v1/order-line/{id}]}: orderLineById(Long)
+	{DELETE [/api/v1/order-line/delete/{id}]}: deleteOrderLine(Long)
+	{PUT [/api/v1/order-line/update/{id}]}: updateOrderLine(Long,OrderLine)
+2021-06-29 18:29:12.958 TRACE 14880 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2021-06-29 18:29:12.959 DEBUG 14880 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : 17 mappings in 'requestMappingHandlerMapping'
+2021-06-29 18:29:12.991 DEBUG 14880 --- [    Test worker] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2021-06-29 18:29:13.000 TRACE 14880 --- [    Test worker] o.s.w.s.f.support.RouterFunctionMapping  : 0 RouterFunction(s) in 'routerFunctionMapping'
+2021-06-29 18:29:13.013 TRACE 14880 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-06-29 18:29:13.014 TRACE 14880 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**] onto ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-06-29 18:29:13.014 DEBUG 14880 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-06-29 18:29:13.028 DEBUG 14880 --- [    Test worker] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-06-29 18:29:13.221 TRACE 14880 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Using LifecycleProcessor [org.springframework.context.support.DefaultLifecycleProcessor@7fd798]
+2021-06-29 18:29:13.227  INFO 14880 --- [    Test worker] c.x.testTask.TestTaskApplicationTests    : Started TestTaskApplicationTests in 4.093 seconds (JVM running for 5.076)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
