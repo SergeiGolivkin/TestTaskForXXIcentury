@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a style=" font-size: 16px; border-radius: 12px; background-color:#ff0000; color:#f0f327; margin: 5px"
+       routerLink="goodses" routerLinkActive="active" class="nav-link"><b>Goods List</b></a>
+    </li>
+
+    <li class="nav-item">
+      <a style=" font-size: 16px; border-radius: 12px; background-color:#ff0000; color:#f0f327; margin: 5px" 
+      routerLink="goodses" routerLinkActive="active" class="nav-link"><b>Order List</b></a>
+    </li>
+
+    <li class="nav-item">
+      <a style=" font-size: 16px; border-radius: 12px; background-color:#ff0000; color:#f0f327; margin: 5px"
+        routerLink="goodses" routerLinkActive="active" class="nav-link"><b>OrderLine List</b></a>
+    </li>
+  </ul>
+</nav>
+
+<h1 style="color: rgb(241, 11, 11);" class="text-center">{{title}}</h1>
+<div class="container">
+<router-outlet></router-outlet>
+</div>
