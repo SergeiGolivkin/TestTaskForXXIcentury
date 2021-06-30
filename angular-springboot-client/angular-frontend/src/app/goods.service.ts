@@ -15,9 +15,9 @@ export class GoodsService {
     return this.httpClient.get<Goods[]>(`${this.baseURL}/all`);
   }
 
-   createGoods(goods: Goods): Observable<Object>{
+  createGoods(goods: Goods): Observable<Object>{
     return this.httpClient.post(`${this.baseURL}/add`, goods);
-   }
+  }
   
   getGoodsById(id: number): Observable<Goods>{
     return this.httpClient.get<Goods>(`${this.baseURL}/${id}`);

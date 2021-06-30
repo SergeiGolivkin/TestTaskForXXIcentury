@@ -1,0 +1,35 @@
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h2 style="color: darkblue;">Order List</h2>
+    </div>
+    <button style="font-size: 18px; border-radius: 12px; background-color:#1de00b; color:#ffffff;  margin-top: 10px;"
+        routerLink="create-order" routerLinkActive="active" class="nav-link"><b>Add Order</b></button>
+    <div class="panel-body">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Client</th>
+                    <th>Date</th>
+                    <th>Address</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let order of orders">
+                    <td>{{order.id}}</td>
+                    <td>{{order.client}}</td>
+                    <td>{{order.date}}</td>
+                    <td>{{order.address}}</td>
+                    <td>
+                        <button (click)="orderDetails(order.id)" class="btn btn-info" style="margin-left: 10px"><b>View</b></button>
+                        <button (click)="updateOrder(order.id)" class="btn btn-info" style="margin-left: 10px" ><b>Update</b></button>
+                        <button (click)="deleteOrder(order.id)" class="btn btn-danger" style="margin-left: 10px"
+                            onclick="document.location.href = 'http://localhost:4200/orders'"><b>Delete</b></button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <router-outlet></router-outlet>
+</div>

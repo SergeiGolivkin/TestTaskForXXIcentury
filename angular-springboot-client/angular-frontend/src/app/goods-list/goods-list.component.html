@@ -21,9 +21,9 @@
             <td>{{goods.name}}</td>
             <td>{{goods.price}}</td>
             <td>
-                <button (click) = "updateGoods(goods.id)" class="btn btn-info">Update</button>
-                <button (click) = "deleteGoods(goods.id)" class="btn btn-danger" style="margin-left: 10px" onclick="document.location.href = 'http://localhost:4200/goodses'">Delete</button>
-                <button (click) = "goodsDetails(goods.id)" class="btn btn-info" style="margin-left: 10px"> View</button>
+                <button (click)="goodsDetails(goods.id)" class="btn btn-info" style="margin-left: 10px"><b>View</b></button>
+                <button (click) = "updateGoods(goods.id)" class="btn btn-info" style="margin-left: 10px"><b>Update</b></button>
+                <button (click) = "deleteGoods(goods.id)" class="btn btn-danger" style="margin-left: 10px" onclick="document.location.href = 'http://localhost:4200/goodses'"><b>Delete</b></button>
             </td>
         </tr>
     </tbody>
